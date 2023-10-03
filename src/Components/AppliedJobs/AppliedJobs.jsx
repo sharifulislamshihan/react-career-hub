@@ -22,7 +22,7 @@ const AppliedJobs = () => {
     return (
         <div>
             <div>
-                <h2>Job I applied: {appliedJobs.length}</h2>
+                <h2 className=" text-4xl font-bold text-center my-16">Job I applied: {appliedJobs.length}</h2>
             </div>
             <div>
                 {
